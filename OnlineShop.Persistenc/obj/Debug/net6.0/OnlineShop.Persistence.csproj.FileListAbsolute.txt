@@ -1,0 +1,17 @@
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Persistence.deps.json
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Persistence.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Persistence.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Common.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Domain.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Domain.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\bin\Debug\net6.0\OnlineShop.Common.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.csproj.CopyComplete
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\refint\OnlineShop.Persistence.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\OnlineShop.Persistence.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Persistenc\obj\Debug\net6.0\ref\OnlineShop.Persistence.dll

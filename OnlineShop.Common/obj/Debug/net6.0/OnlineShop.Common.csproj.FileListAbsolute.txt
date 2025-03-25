@@ -1,0 +1,14 @@
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\bin\Debug\net6.0\OnlineShop.Common.deps.json
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\bin\Debug\net6.0\OnlineShop.Common.runtimeconfig.json
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\bin\Debug\net6.0\OnlineShop.Common.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\bin\Debug\net6.0\OnlineShop.Common.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\refint\OnlineShop.Common.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.pdb
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\OnlineShop.Common.genruntimeconfig.cache
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Common\obj\Debug\net6.0\ref\OnlineShop.Common.dll
