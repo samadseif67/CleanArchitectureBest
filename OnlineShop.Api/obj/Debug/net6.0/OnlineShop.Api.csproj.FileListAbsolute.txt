@@ -82,3 +82,7 @@ E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Web.WebPages.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

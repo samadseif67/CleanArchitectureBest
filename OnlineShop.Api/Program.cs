@@ -1,6 +1,8 @@
 ﻿using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.ResponseCompression;
+using Newtonsoft.Json.Serialization;
 using OnlineShop.Application;
 using OnlineShop.Persistence;
 using System.Web.Mvc;
@@ -16,7 +18,13 @@ builder.Services.PersistenceConfig(builder.Configuration);
 
 //**********************************************************
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
+builder.Services.AddControllers(options => { options.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>(); }//برای اینکه بتواند خروجی null برگرداند
+ ).AddNewtonsoftJson(options =>
+ {
+     options.SerializerSettings.ContractResolver = new DefaultContractResolver(); // غیرفعال کردن camelCase   //خروجی در صورتی که حروف بزرگ باشد همان حروف بزرگ نمایش داده میشود
+ });
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -43,7 +51,7 @@ builder.Services.Configure<GzipCompressionProviderOptions>(x =>
 
 //************************************************************
 
- 
+
 
 
 //***********************************************************
