@@ -86,3 +86,13 @@ E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Micros
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\PuppeteerSharp.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Text.Json.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

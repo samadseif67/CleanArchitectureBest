@@ -17,7 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Persistence", "O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Application", "OnlineShop.Application\OnlineShop.Application.csproj", "{E488F130-1578-41C1-BC17-40A00E204AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Education", "Education", "{BA5AD8DD-B8BD-496B-983E-20907E8BE547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZarinPal_Saman_PatternAdaptore", "ZarinPal_Saman_PatternAdaptore\ZarinPal_Saman_PatternAdaptore.csproj", "{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedMeasurement_Benchmark", "SpeedMeasurement_Benchmark\SpeedMeasurement_Benchmark.csproj", "{E75BA81B-B665-4F91-B1FE-B981162B930E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_App", "SignalR_App\SignalR_App.csproj", "{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,18 @@ Global
 		{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75BA81B-B665-4F91-B1FE-B981162B930E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75BA81B-B665-4F91-B1FE-B981162B930E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75BA81B-B665-4F91-B1FE-B981162B930E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75BA81B-B665-4F91-B1FE-B981162B930E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +75,9 @@ Global
 		{26E9B75E-D277-4675-95AA-BAE740204258} = {C69EC0E0-C05E-4CD2-8610-805288E4B427}
 		{E488F130-1578-41C1-BC17-40A00E204AD3} = {C69EC0E0-C05E-4CD2-8610-805288E4B427}
 		{FC4CA17E-69ED-4686-806E-BC5C417FE3AB} = {C69EC0E0-C05E-4CD2-8610-805288E4B427}
+		{DE4BC30D-11B0-4317-93D9-D2B2C47A460C} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{E75BA81B-B665-4F91-B1FE-B981162B930E} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}

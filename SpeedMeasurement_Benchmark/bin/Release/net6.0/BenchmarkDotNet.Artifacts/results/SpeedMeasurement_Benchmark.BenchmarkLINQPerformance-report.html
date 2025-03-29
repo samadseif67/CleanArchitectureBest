@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>SpeedMeasurement_Benchmark.BenchmarkLINQPerformance-20250327-104317</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19044.5608/21H2/November2021Update)
+Intel Core i5-6200U CPU 2.30GHz (Skylake), 1 CPU, 4 logical and 2 physical cores
+.NET SDK 8.0.407
+  [Host]     : .NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2
+  DefaultJob : .NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>Single</td><td>583.7 ns</td><td>11.61 ns</td><td>18.08 ns</td><td>0.0248</td><td>40 B</td>
+</tr><tr><td>First</td><td>286.9 ns</td><td>5.83 ns</td><td>6.24 ns</td><td>0.0253</td><td>40 B</td>
+</tr></tbody></table>
+</body>
+</html>

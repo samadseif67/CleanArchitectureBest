@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Real-Time App</title>
+</head>
+<body>
+    <div>
+
+        <input type="text" id="customerNameInput" placeholder="customerName" />
+        <input type="text" id="foodNameInput" placeholder="foodName" />
+        <button onclick="sendMessage()">Send Food</button>
+
+        <br/>
+
+        <input type="text" id="messageInput" placeholder="message" />
+        <button onclick="sendNotification()">Send Notification</button>
+
+    </div>
+    <ul id="messagesList"></ul>
+
+
+   @* <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>*@
+    <script src="../SignalR/signalr.min.js"></script>
+    <script>
+
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/realtimehub")
+            .build();
+
+        connection.start().catch(err => console.error(err));
+
+
+        //******************************************************************************************** */
+
+
+       function sendMessage() {
+            const customerName = document.getElementById("customerNameInput").value;
+            const foodName = document.getElementById("foodNameInput").value;
+            connection.invoke("SendMessage", customerName, foodName).catch(err => console.error(err));
+        }
+
+
+        connection.on("ReceiveMessage", (data) => {
+            const li = document.createElement("li");
+            li.textContent = `${data.customerName}: ${data.foodName}`;
+            document.getElementById("messagesList").appendChild(li);
+        });
+         
+
+       
+
+
+         //*************************************************************************************** */
+
+        function sendNotification() {
+            const message = document.getElementById("messageInput").value;
+            connection.invoke("SendNotification", message).catch(err => console.error(err));
+        }
+
+
+       connection.on("ReceiveNotification", (message) => {
+            alert(`Notification: ${message}`);
+        });
+
+        //************************************************************************************ */
+
+
+
+    </script>
+</body>
+</html>

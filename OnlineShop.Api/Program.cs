@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Newtonsoft.Json.Serialization;
 using OnlineShop.Application;
 using OnlineShop.Persistence;
+using PuppeteerSharp;
 using System.Web.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,8 +51,7 @@ builder.Services.Configure<GzipCompressionProviderOptions>(x =>
 
 
 //************************************************************
-
-
+ 
 
 
 //***********************************************************
