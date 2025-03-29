@@ -1,0 +1,15 @@
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\bin\Debug\net6.0\HashingWithSalt_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\bin\Debug\net6.0\HashingWithSalt_App.deps.json
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\bin\Debug\net6.0\HashingWithSalt_App.runtimeconfig.json
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\bin\Debug\net6.0\HashingWithSalt_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\bin\Debug\net6.0\HashingWithSalt_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\refint\HashingWithSalt_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\HashingWithSalt_App.genruntimeconfig.cache
+E:\projectEducation\OnlineShop\OnlineShop\HashingWithSalt_App\obj\Debug\net6.0\ref\HashingWithSalt_App.dll

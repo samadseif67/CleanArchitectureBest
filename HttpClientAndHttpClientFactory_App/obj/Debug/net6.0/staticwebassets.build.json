@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "88odJ5YeGwd2OrOnQ3zIN3YhifHqHN6OKpCdGcyehCc=",
+  "Source": "HttpClientAndHttpClientFactory_App",
+  "BasePath": "_content/HttpClientAndHttpClientFactory_App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
