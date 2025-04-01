@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR_App", "SignalR_App\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashingWithSalt_App", "HashingWithSalt_App\HashingWithSalt_App.csproj", "{E76F8C75-B3C9-4D73-8D1A-D8DD552E5422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientAndHttpClientFactory_App", "HttpClientAndHttpClientFactory_App\HttpClientAndHttpClientFactory_App.csproj", "{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientAndHttpClientFactory_App", "HttpClientAndHttpClientFactory_App\HttpClientAndHttpClientFactory_App.csproj", "{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqDirectExchange_SendRecive_App", "RabitmqDirectExchange_SendRecive_App\RabitmqDirectExchange_SendRecive_App.csproj", "{D5A7C037-278C-4A60-AF13-2F7B12D978F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqFanoutExchange_SendRecive_App", "RabitmqFanoutExchange_SendRecive_App\RabitmqFanoutExchange_SendRecive_App.csproj", "{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitmqTopicExchange_SendRecive_App", "RabitmqTopicExchange_SendRecive_App\RabitmqTopicExchange_SendRecive_App.csproj", "{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +83,18 @@ Global
 		{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A7C037-278C-4A60-AF13-2F7B12D978F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A7C037-278C-4A60-AF13-2F7B12D978F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A7C037-278C-4A60-AF13-2F7B12D978F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A7C037-278C-4A60-AF13-2F7B12D978F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +110,9 @@ Global
 		{87CE6CB5-B5E5-4F81-B968-7DEDE18B9898} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{E76F8C75-B3C9-4D73-8D1A-D8DD552E5422} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{0DA9214A-D84F-4C15-AB1D-ACC67B0E60D8} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{D5A7C037-278C-4A60-AF13-2F7B12D978F5} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
