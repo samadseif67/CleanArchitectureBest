@@ -96,3 +96,4 @@ E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\Puppet
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\System.Text.Json.dll
 E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\projectEducation\OnlineShop\OnlineShop\OnlineShop.Api\bin\Debug\net6.0\OnlineShop.Api.staticwebassets.runtime.json

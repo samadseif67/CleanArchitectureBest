@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "vk/NufowuTJTI2Ttj+U4/JS3i0vLQAaz//wBw/x1rcY=",
+  "Hash": "qt8Vmd+Jz1h0g4eLvMhovbKcy9xuK+uNGBPg7rcB+do=",
   "Source": "OnlineShop.Api",
   "BasePath": "_content/OnlineShop.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OnlineShop.Api\\wwwroot",
+      "Source": "OnlineShop.Api",
+      "ContentRoot": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api\\wwwroot\\",
+      "BasePath": "_content/OnlineShop.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

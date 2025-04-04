@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqDirectExchange_SendR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqFanoutExchange_SendRecive_App", "RabitmqFanoutExchange_SendRecive_App\RabitmqFanoutExchange_SendRecive_App.csproj", "{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitmqTopicExchange_SendRecive_App", "RabitmqTopicExchange_SendRecive_App\RabitmqTopicExchange_SendRecive_App.csproj", "{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqTopicExchange_SendRecive_App", "RabitmqTopicExchange_SendRecive_App\RabitmqTopicExchange_SendRecive_App.csproj", "{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabitmqHeaderExchange_SendRecive_App", "RabitmqHeaderExchange_SendRecive_App\RabitmqHeaderExchange_SendRecive_App.csproj", "{05122F4B-6467-4A19-8939-C6F21AA46B41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api_UnitTest", "OnlineShop.Api_UnitTest\OnlineShop.Api_UnitTest.csproj", "{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Api_ComponentOrServiceTest", "OnlineShop.Api_ComponentOrServiceTest\OnlineShop.Api_ComponentOrServiceTest.csproj", "{667CB52D-5B06-4651-A4B7-188D4660D66A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +101,18 @@ Global
 		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05122F4B-6467-4A19-8939-C6F21AA46B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05122F4B-6467-4A19-8939-C6F21AA46B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05122F4B-6467-4A19-8939-C6F21AA46B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05122F4B-6467-4A19-8939-C6F21AA46B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667CB52D-5B06-4651-A4B7-188D4660D66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667CB52D-5B06-4651-A4B7-188D4660D66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667CB52D-5B06-4651-A4B7-188D4660D66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667CB52D-5B06-4651-A4B7-188D4660D66A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +131,9 @@ Global
 		{D5A7C037-278C-4A60-AF13-2F7B12D978F5} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{A718D9FE-CB8F-4C17-ADE1-81CD4C3D6D97} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{2561EDE4-2038-4D03-AFE6-6A0D116B7A13} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{05122F4B-6467-4A19-8939-C6F21AA46B41} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{EA0FB492-19C9-4A9B-BD59-57C5EDA260E3} = {D16A39F5-D401-46A2-A9E2-D27DEE503734}
+		{667CB52D-5B06-4651-A4B7-188D4660D66A} = {D16A39F5-D401-46A2-A9E2-D27DEE503734}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}

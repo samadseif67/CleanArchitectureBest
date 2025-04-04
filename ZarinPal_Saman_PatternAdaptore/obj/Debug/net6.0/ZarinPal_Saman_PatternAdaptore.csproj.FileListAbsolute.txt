@@ -1,0 +1,7 @@
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.MvcApplicationPartsAssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\ZarinPal_Saman_PatternAdaptore\obj\Debug\net6.0\ZarinPal_Saman_PatternAdaptore.MvcApplicationPartsAssemblyInfo.cache
