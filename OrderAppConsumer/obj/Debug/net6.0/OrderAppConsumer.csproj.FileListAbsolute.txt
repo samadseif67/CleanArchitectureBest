@@ -1,0 +1,7 @@
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.MvcApplicationPartsAssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\OrderAppConsumer\obj\Debug\net6.0\OrderAppConsumer.MvcApplicationPartsAssemblyInfo.cache
