@@ -1,8 +1,4 @@
 ﻿
-
-
-
-
 using Newtonsoft.Json;
 using RestSharp;
 
@@ -24,9 +20,9 @@ namespace OrderAppConsumer.Service
 
         public VerifyProductDto Verify(ProductDto productDto)
         {
-            var request = new RestRequest($"/api/product/verify/{productDto.id}",Method.Get);
-             RestResponse restResponse=  restClient.Execute(request);
-             var productRemote= JsonConvert.DeserializeObject<ProductVerifyOnServerProductDto>(restResponse.Content);
+            var request = new RestRequest($"/api/Product/verify/{productDto.id}", Method.Get);
+            RestResponse restResponse = restClient.Execute(request);
+            var productRemote = JsonConvert.DeserializeObject<ProductVerifyOnServerProductDto>(restResponse.Content);
 
             return Verify(productDto, productRemote);
         }
@@ -35,7 +31,7 @@ namespace OrderAppConsumer.Service
 
         private VerifyProductDto Verify(ProductDto local, ProductVerifyOnServerProductDto remote)
         {
-            if(local.Name==remote.Name)
+            if (local.Name == remote.Name)
             {
                 return new VerifyProductDto
                 {
@@ -47,7 +43,7 @@ namespace OrderAppConsumer.Service
                 return new VerifyProductDto
                 {
                     Name = remote.Name,
-                    IsCorrect=false
+                    IsCorrect = false
                 };
             }
         }
@@ -57,7 +53,7 @@ namespace OrderAppConsumer.Service
 
 
 
- 
+
 
 
 
