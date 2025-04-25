@@ -1,0 +1,15 @@
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\bin\Debug\net6.0\WebSocket_Client_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\bin\Debug\net6.0\WebSocket_Client_App.deps.json
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\bin\Debug\net6.0\WebSocket_Client_App.runtimeconfig.json
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\bin\Debug\net6.0\WebSocket_Client_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\bin\Debug\net6.0\WebSocket_Client_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\refint\WebSocket_Client_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\WebSocket_Client_App.genruntimeconfig.cache
+E:\projectEducation\OnlineShop\OnlineShop\WebSocket_Client_App\obj\Debug\net6.0\ref\WebSocket_Client_App.dll
