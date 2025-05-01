@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderAppConsumerTest_Betwee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocket_Server_App", "WebSocket_Server_App\WebSocket_Server_App.csproj", "{98AA7FBE-FB63-4BE9-82F5-38E1B1295D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket_Client_App", "WebSocket_Client_App\WebSocket_Client_App.csproj", "{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocket_Client_App", "WebSocket_Client_App\WebSocket_Client_App.csproj", "{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker_App", "Docker_App\Docker_App.csproj", "{0196CC82-E3A4-4D00-9664-14550D57591C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,10 @@ Global
 		{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0196CC82-E3A4-4D00-9664-14550D57591C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0196CC82-E3A4-4D00-9664-14550D57591C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0196CC82-E3A4-4D00-9664-14550D57591C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0196CC82-E3A4-4D00-9664-14550D57591C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{6C505C65-40A4-4EBD-953B-2E9B133B6CA3} = {E63AE258-EF00-4894-ACD5-6A6B2CCE16F8}
 		{98AA7FBE-FB63-4BE9-82F5-38E1B1295D67} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{2AE2EC98-3DC0-4A9F-A624-A83E8AC284BA} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{0196CC82-E3A4-4D00-9664-14550D57591C} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
