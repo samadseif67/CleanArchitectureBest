@@ -22,5 +22,8 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Docker_App.dll"]
 
 
-
-#//    docker build -t  Img_Docker_App .   
+#//docker build -t simplecoreapp
+#
+#//docker volume create --driver local --opt type=none --opt device=F:\docker_volumes\my_volume --opt o=bind my_volumeCore   
+#
+#// docker run -d  --name AppCore1404 -p 8040:80 -v my_volumeCore:/app -v my_volumeCore:/src   eb08bf1c540c
