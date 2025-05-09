@@ -11,10 +11,14 @@ namespace Docker_App.Controllers
         [HttpPost]
         public ActionResult Test1()
         {
-            return Ok("hello hello");
+            return Ok("hello hello Test1");
         }
 
-
+        [HttpPost]
+        public ActionResult Test2()
+        {
+            return Ok("hello hello Test2");
+        }
 
     }
 }
