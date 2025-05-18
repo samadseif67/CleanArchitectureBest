@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 
 
 //*********************************************************************
+//AddApiVersioning  Configure
 builder.Services.AddApiVersioning(config =>
 {
     config.AssumeDefaultVersionWhenUnspecified = true; 
@@ -26,7 +27,10 @@ builder.Services.AddApiVersioning(config =>
 
 });
 
-
+builder.Services.AddSwaggerGen(c =>
+{ 
+    c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+});
 //*********************************************************************
 
 
