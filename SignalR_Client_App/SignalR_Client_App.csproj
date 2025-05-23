@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="masstransit" Version="8.4.1" />
+  </ItemGroup>
+
 </Project>

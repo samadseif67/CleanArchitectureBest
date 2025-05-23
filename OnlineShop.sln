@@ -63,9 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire_backgroundService_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiVersioning_App", "ApiVersioning_App\ApiVersioning_App.csproj", "{DB0D3AF8-E985-436D-8D92-7C4751CA6AFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Server_App", "SignalR_Server_App\SignalR_Server_App.csproj", "{3D47A234-B695-4D87-A9DB-8E2DB7D998FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR_Server_App", "SignalR_Server_App\SignalR_Server_App.csproj", "{3D47A234-B695-4D87-A9DB-8E2DB7D998FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR_Client_App", "SignalR_Client_App\SignalR_Client_App.csproj", "{36C06244-9476-446C-B90F-F2BB1F729B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR_Client_App", "SignalR_Client_App\SignalR_Client_App.csproj", "{36C06244-9476-446C-B90F-F2BB1F729B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabitmq_MassTransit_AppOne", "Rabitmq_MassTransit_AppOne\Rabitmq_MassTransit_AppOne.csproj", "{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabitmq_MassTransit_AppTwo_WorkerService_Project", "Rabitmq_MassTransit_AppTwo_WorkerService_Project\Rabitmq_MassTransit_AppTwo_WorkerService_Project.csproj", "{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +185,14 @@ Global
 		{36C06244-9476-446C-B90F-F2BB1F729B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C06244-9476-446C-B90F-F2BB1F729B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C06244-9476-446C-B90F-F2BB1F729B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -214,6 +226,8 @@ Global
 		{DB0D3AF8-E985-436D-8D92-7C4751CA6AFB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{3D47A234-B695-4D87-A9DB-8E2DB7D998FB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{36C06244-9476-446C-B90F-F2BB1F729B72} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}

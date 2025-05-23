@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "masstransit": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
