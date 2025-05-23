@@ -1,4 +1,5 @@
-﻿using System;
+﻿using namespaceSendGmailCommand;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,12 +13,12 @@ namespace Rabitmq_MassTransit_AppTwo_WorkerService_Project.Services
         private readonly ILogger<GmailSenderService> _logger;
         public GmailSenderService(ILogger<GmailSenderService> logger)
         {
-            logger = _logger;
+            _logger= logger;
         }
         public async Task SendGmail(SendGmailCommand sendGmails)
         {
-            await Task.Delay(1000);
-            _logger.LogInformation("Send Gmail ....", sendGmails);
+           
+            _logger.LogInformation("Send Gmail ....samad..."+ sendGmails.Body, sendGmails);
 
         }
 

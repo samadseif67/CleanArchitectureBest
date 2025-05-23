@@ -1,4 +1,5 @@
 ﻿using MassTransit;
+ 
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 //*********************************************************
 builder.Services.AddMassTransit(x =>
 {
+    x.SetKebabCaseEndpointNameFormatter();  
     x.UsingRabbitMq((context, cfg) =>
     {
         cfg.Host(new Uri("rabbitmq://localhost:5672"), h =>
@@ -20,9 +22,13 @@ builder.Services.AddMassTransit(x =>
             h.Username("guest");
             h.Password("guest");
         });
+        cfg.ConfigureEndpoints(context);                         
+        //cfg.DeployTopologyOnly = true;// یا برای جلوگیری از حذف خودکار Exchangeها:
     });
 });
 
+
+ 
 //********************************************************
 
 

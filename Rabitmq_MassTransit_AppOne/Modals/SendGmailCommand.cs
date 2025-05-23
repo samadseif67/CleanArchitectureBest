@@ -1,4 +1,4 @@
-﻿namespace Rabitmq_MassTransit_AppOne.Modals
+﻿namespace namespaceSendGmailCommand
 {
     public class SendGmailCommand
     {
@@ -6,5 +6,7 @@
         public string Subject { get; set; }
         public string Body { get; set; }
     }
-
 }
+  
+
+ 

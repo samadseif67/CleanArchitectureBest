@@ -1,4 +1,6 @@
-﻿namespace Rabitmq_MassTransit_AppTwo_WorkerService_Project.Services
+﻿using namespaceSendGmailCommand;
+
+namespace Rabitmq_MassTransit_AppTwo_WorkerService_Project.Services
 {
     public interface IGmailSenderService
     {
