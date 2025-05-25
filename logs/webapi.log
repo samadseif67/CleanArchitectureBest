@@ -1,0 +1,7 @@
+2025-05-25 23:32:04.790 +03:30 [WRN] Failed to determine the https port for redirect.
+2025-05-25 23:32:05.019 +03:30 [INF] log is date time5/25/2025 11:32:05 PM
+2025-05-25 23:32:05.029 +03:30 [INF] HTTP POST /api/Home/Test1 responded 200 in 269.8676 ms
+2025-05-25 23:32:05.972 +03:30 [INF] log is date time5/25/2025 11:32:05 PM
+2025-05-25 23:32:05.974 +03:30 [INF] HTTP POST /api/Home/Test1 responded 200 in 34.5596 ms
+2025-05-25 23:32:07.357 +03:30 [INF] log is date time5/25/2025 11:32:07 PM
+2025-05-25 23:32:09.482 +03:30 [INF] HTTP POST /api/Home/Test1 responded 200 in 2695.9342 ms

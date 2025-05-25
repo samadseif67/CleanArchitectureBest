@@ -67,9 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR_Server_App", "Signa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR_Client_App", "SignalR_Client_App\SignalR_Client_App.csproj", "{36C06244-9476-446C-B90F-F2BB1F729B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabitmq_MassTransit_AppOne", "Rabitmq_MassTransit_AppOne\Rabitmq_MassTransit_AppOne.csproj", "{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabitmq_MassTransit_AppOne", "Rabitmq_MassTransit_AppOne\Rabitmq_MassTransit_AppOne.csproj", "{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabitmq_MassTransit_AppTwo_WorkerService_Project", "Rabitmq_MassTransit_AppTwo_WorkerService_Project\Rabitmq_MassTransit_AppTwo_WorkerService_Project.csproj", "{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabitmq_MassTransit_AppTwo_WorkerService_Project", "Rabitmq_MassTransit_AppTwo_WorkerService_Project\Rabitmq_MassTransit_AppTwo_WorkerService_Project.csproj", "{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLog_App", "SeriLog_App\SeriLog_App.csproj", "{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +195,10 @@ Global
 		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +234,7 @@ Global
 		{36C06244-9476-446C-B90F-F2BB1F729B72} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
