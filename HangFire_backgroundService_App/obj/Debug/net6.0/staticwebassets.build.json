@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6PZf0RU/E5Y/QIte/aVnHokLR3MrlLszcEB2K2yK6+U=",
+  "Source": "HangFire_backgroundService_App",
+  "BasePath": "_content/HangFire_backgroundService_App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

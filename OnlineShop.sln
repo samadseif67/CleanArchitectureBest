@@ -4,10 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{56973684-038B-4800-8E9F-1DBC58635501}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{C69EC0E0-C05E-4CD2-8610-805288E4B427}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D16A39F5-D401-46A2-A9E2-D27DEE503734}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Domain", "OnlineShop.Domain\OnlineShop.Domain.csproj", "{AE4B3254-956A-44EB-80F1-DDC4A86B4498}"
 EndProject
@@ -20,6 +29,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Education", "Education", "{BA5AD8DD-B8BD-496B-983E-20907E8BE547}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZarinPal_Saman_PatternAdaptore", "ZarinPal_Saman_PatternAdaptore\ZarinPal_Saman_PatternAdaptore.csproj", "{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}"
 EndProject
@@ -46,6 +58,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api_IntegrationTest", "OnlineShop.Api_IntegrationTest\OnlineShop.Api_IntegrationTest.csproj", "{6F474172-41FA-4955-B385-64D27C74D58F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestForBetweenTwoServiceApplication", "TestForBetweenTwoServiceApplication", "{E63AE258-EF00-4894-ACD5-6A6B2CCE16F8}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAppProvider", "ProductAppProvider\ProductAppProvider.csproj", "{87F4BEB6-F906-4D1E-AB9B-B7E197BCA3D9}"
 EndProject
@@ -71,7 +86,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabitmq_MassTransit_AppOne"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabitmq_MassTransit_AppTwo_WorkerService_Project", "Rabitmq_MassTransit_AppTwo_WorkerService_Project\Rabitmq_MassTransit_AppTwo_WorkerService_Project.csproj", "{949F91B6-1DB3-4FFC-8561-5DB305DABAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLog_App", "SeriLog_App\SeriLog_App.csproj", "{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeriLog_App", "SeriLog_App\SeriLog_App.csproj", "{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper_App", "Dapper_App\Dapper_App.csproj", "{9C452740-39DD-46BE-8A49-D51B600119FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -199,6 +216,10 @@ Global
 		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C452740-39DD-46BE-8A49-D51B600119FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C452740-39DD-46BE-8A49-D51B600119FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C452740-39DD-46BE-8A49-D51B600119FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C452740-39DD-46BE-8A49-D51B600119FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +256,7 @@ Global
 		{C18D5ED0-3CBB-4E45-9EBA-C464CDA09372} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{949F91B6-1DB3-4FFC-8561-5DB305DABAFB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{9C452740-39DD-46BE-8A49-D51B600119FA} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
