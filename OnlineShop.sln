@@ -29,6 +29,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{FC4CA17E-69ED-4686-806E-BC5C417FE3AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Education", "Education", "{BA5AD8DD-B8BD-496B-983E-20907E8BE547}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\AA.txt = C:\Users\HP\Desktop\AA.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZarinPal_Saman_PatternAdaptore", "ZarinPal_Saman_PatternAdaptore\ZarinPal_Saman_PatternAdaptore.csproj", "{DE4BC30D-11B0-4317-93D9-D2B2C47A460C}"
 EndProject
@@ -87,7 +90,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeriLog_App", "SeriLog_App\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper_App", "Dapper_App\Dapper_App.csproj", "{9C452740-39DD-46BE-8A49-D51B600119FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire_App", "HangFire_App\HangFire_App.csproj", "{AB67CF2F-2161-4ADA-A17C-C60E2018D937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire_App", "HangFire_App\HangFire_App.csproj", "{AB67CF2F-2161-4ADA-A17C-C60E2018D937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting_App", "RateLimiting_App\RateLimiting_App.csproj", "{8C819CB6-966D-4FE2-8201-4444056CECDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +228,10 @@ Global
 		{AB67CF2F-2161-4ADA-A17C-C60E2018D937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB67CF2F-2161-4ADA-A17C-C60E2018D937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB67CF2F-2161-4ADA-A17C-C60E2018D937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -261,6 +270,7 @@ Global
 		{BEDEAEE0-3E37-4284-9B9D-A71049A20C5A} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{9C452740-39DD-46BE-8A49-D51B600119FA} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{AB67CF2F-2161-4ADA-A17C-C60E2018D937} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{8C819CB6-966D-4FE2-8201-4444056CECDB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
