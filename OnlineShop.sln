@@ -92,7 +92,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper_App", "Dapper_App\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire_App", "HangFire_App\HangFire_App.csproj", "{AB67CF2F-2161-4ADA-A17C-C60E2018D937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting_App", "RateLimiting_App\RateLimiting_App.csproj", "{8C819CB6-966D-4FE2-8201-4444056CECDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimiting_App", "RateLimiting_App\RateLimiting_App.csproj", "{8C819CB6-966D-4FE2-8201-4444056CECDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Important", "Important", "{A0FFCDAB-FBB5-4D3D-8554-DBB52ED202BE}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\تعریف کلید اصلی.txt = C:\Users\HP\Desktop\تعریف کلید اصلی.txt
+		C:\Users\HP\Desktop\پیدا کردن namespace یک کلاس.txt = C:\Users\HP\Desktop\پیدا کردن namespace یک کلاس.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Execute_Dynamic_ActionService", "Execute_Dynamic_ActionService\Execute_Dynamic_ActionService.csproj", "{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -232,6 +240,10 @@ Global
 		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C819CB6-966D-4FE2-8201-4444056CECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -271,6 +283,8 @@ Global
 		{9C452740-39DD-46BE-8A49-D51B600119FA} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{AB67CF2F-2161-4ADA-A17C-C60E2018D937} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{8C819CB6-966D-4FE2-8201-4444056CECDB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{A0FFCDAB-FBB5-4D3D-8554-DBB52ED202BE} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}
