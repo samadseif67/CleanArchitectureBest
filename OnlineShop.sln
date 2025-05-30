@@ -96,11 +96,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimiting_App", "RateLim
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Important", "Important", "{A0FFCDAB-FBB5-4D3D-8554-DBB52ED202BE}"
 	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\اجرا کردن داینامیک متدهای یک کلاس.txt = C:\Users\HP\Desktop\اجرا کردن داینامیک متدهای یک کلاس.txt
+		C:\Users\HP\Desktop\بدست آوردن نوع -- (نام رشته ای از کلاس).txt = C:\Users\HP\Desktop\بدست آوردن نوع -- (نام رشته ای از کلاس).txt
 		C:\Users\HP\Desktop\تعریف کلید اصلی.txt = C:\Users\HP\Desktop\تعریف کلید اصلی.txt
 		C:\Users\HP\Desktop\پیدا کردن namespace یک کلاس.txt = C:\Users\HP\Desktop\پیدا کردن namespace یک کلاس.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Execute_Dynamic_ActionService", "Execute_Dynamic_ActionService\Execute_Dynamic_ActionService.csproj", "{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Execute_Dynamic_ActionService", "Execute_Dynamic_ActionService\Execute_Dynamic_ActionService.csproj", "{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc_Server_App", "Grpc_Server_App\Grpc_Server_App.csproj", "{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc_Client_App", "Grpc_Client_App\Grpc_Client_App.csproj", "{4BC8C560-10E9-4EC5-A5B7-0BC485F07453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -244,6 +250,14 @@ Global
 		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC8C560-10E9-4EC5-A5B7-0BC485F07453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC8C560-10E9-4EC5-A5B7-0BC485F07453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC8C560-10E9-4EC5-A5B7-0BC485F07453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC8C560-10E9-4EC5-A5B7-0BC485F07453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -285,6 +299,8 @@ Global
 		{8C819CB6-966D-4FE2-8201-4444056CECDB} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{A0FFCDAB-FBB5-4D3D-8554-DBB52ED202BE} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{8F0DED44-5E00-499F-B093-CFD0EC7EAFB8} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{C034D1FB-C14B-435A-A6A3-BF7C9A5F2C2B} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{4BC8C560-10E9-4EC5-A5B7-0BC485F07453} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}

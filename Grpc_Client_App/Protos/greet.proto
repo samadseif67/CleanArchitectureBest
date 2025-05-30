@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc_Server_App.Protos";
+
+service Greeter {
+  // Define a unary RPC (simple request-response)
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+// Define the request message
+message HelloRequest {
+  string name = 1;
+}
+
+// Define the response message
+message HelloReply {
+  string message = 1;
+}
