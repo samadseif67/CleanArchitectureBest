@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\bin\Debug\MultiThreading_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\bin\Debug\MultiThreading_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\bin\Debug\MultiThreading_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\obj\Debug\MultiThreading_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\obj\Debug\MultiThreading_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\obj\Debug\MultiThreading_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\obj\Debug\MultiThreading_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\MultiThreading_App\obj\Debug\MultiThreading_App.pdb

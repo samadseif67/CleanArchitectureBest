@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0aL3iYuabwGPnH+P362Apb1YcM4JkTlotETXkA02IzVCiKV1uZt/wzNZv1Tcv3K1x3rgfhkzKU2i5Dn2WpDWrA==",
+  "dgSpecHash": "YWibSCXfzXek5E8TwXkzcfVapvGdPAqNyVwc8S3aR2QZkAm0SOg+e+wKuB/1/MJWdnZcugymzTU7Aq6ZHKCSkQ==",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\ApiVersioning_App\\ApiVersioning_App.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

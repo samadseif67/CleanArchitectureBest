@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\obj\Debug\Delegate_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\obj\Debug\Delegate_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\obj\Debug\Delegate_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\bin\Debug\Delegate_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\bin\Debug\Delegate_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\bin\Debug\Delegate_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\obj\Debug\Delegate_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\Delegate_App\obj\Debug\Delegate_App.pdb
