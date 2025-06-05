@@ -17,7 +17,7 @@ namespace MultiThreading_App
             program.TwoMehtod();
             Console.ReadKey();
 
-           
+
 
         }
 
@@ -45,7 +45,7 @@ namespace MultiThreading_App
 
         public void MsgConsole()
         {
-            Thread.Sleep(3000); 
+            Thread.Sleep(3000);
             Console.WriteLine("Test1");
         }
 
@@ -55,10 +55,14 @@ namespace MultiThreading_App
         //روش دوم
         public void TwoMehtod()
         {
-            Task.Run(MsgConsole);
-            Task.Run(MsgConsole);
-            Task.Run(MsgConsole);
+            var t1 = Task.Run(MsgConsole);
+            var t2 = Task.Run(MsgConsole);
+            var t3 = Task.Run(MsgConsole);
 
+            Task.WaitAll(t1, t2, t3);//ابتدا تمام تسک های بالا که اجرا شد و تمام شد بعد خط پایین اجرا شود
+            
+
+            Console.WriteLine("Done Two");
 
         }
 

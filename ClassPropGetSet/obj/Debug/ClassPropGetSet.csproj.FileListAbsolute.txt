@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\bin\Debug\ClassPropGetSet.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\bin\Debug\ClassPropGetSet.exe
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\bin\Debug\ClassPropGetSet.pdb
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\obj\Debug\ClassPropGetSet.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\obj\Debug\ClassPropGetSet.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\obj\Debug\ClassPropGetSet.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\obj\Debug\ClassPropGetSet.exe
+E:\projectEducation\OnlineShop\OnlineShop\ClassPropGetSet\obj\Debug\ClassPropGetSet.pdb
