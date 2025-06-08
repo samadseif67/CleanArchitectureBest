@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\bin\Debug\AbstractClass.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\bin\Debug\AbstractClass.exe
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\bin\Debug\AbstractClass.pdb
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\obj\Debug\AbstractClass.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\obj\Debug\AbstractClass.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\obj\Debug\AbstractClass.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\obj\Debug\AbstractClass.exe
+E:\projectEducation\OnlineShop\OnlineShop\AbstractClass\obj\Debug\AbstractClass.pdb
