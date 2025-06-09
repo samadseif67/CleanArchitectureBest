@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\bin\Debug\WCF_Client_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\bin\Debug\WCF_Client_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\bin\Debug\WCF_Client_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\obj\Debug\WCF_Client_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\obj\Debug\WCF_Client_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\obj\Debug\WCF_Client_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\obj\Debug\WCF_Client_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\WCF_Client_App\obj\Debug\WCF_Client_App.pdb

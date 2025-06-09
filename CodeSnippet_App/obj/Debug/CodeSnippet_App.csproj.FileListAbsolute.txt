@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\bin\Debug\CodeSnippet_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\bin\Debug\CodeSnippet_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\bin\Debug\CodeSnippet_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\obj\Debug\CodeSnippet_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\obj\Debug\CodeSnippet_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\obj\Debug\CodeSnippet_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\obj\Debug\CodeSnippet_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\CodeSnippet_App\obj\Debug\CodeSnippet_App.pdb

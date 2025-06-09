@@ -130,6 +130,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAndFolder_App", "FileAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{EDEA7F3F-4162-4E98-B32F-C551FC03B958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks_App", "HealthChecks_App\HealthChecks_App.csproj", "{528C50BB-BC65-4896-8D92-621558FCAA71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -324,6 +326,10 @@ Global
 		{EDEA7F3F-4162-4E98-B32F-C551FC03B958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEA7F3F-4162-4E98-B32F-C551FC03B958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEA7F3F-4162-4E98-B32F-C551FC03B958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528C50BB-BC65-4896-8D92-621558FCAA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528C50BB-BC65-4896-8D92-621558FCAA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528C50BB-BC65-4896-8D92-621558FCAA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528C50BB-BC65-4896-8D92-621558FCAA71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -378,6 +384,7 @@ Global
 		{ECCD3D08-977A-4C24-A6E3-B862991FFF47} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{BF3ECA2E-7B24-45E1-9074-F8C1D097C1D8} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 		{EDEA7F3F-4162-4E98-B32F-C551FC03B958} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
+		{528C50BB-BC65-4896-8D92-621558FCAA71} = {BA5AD8DD-B8BD-496B-983E-20907E8BE547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE6CD887-E359-41E0-9A22-15D2BFFD8EE3}

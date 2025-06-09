@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\bin\Debug\AccessModifierPublicPrivate.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\bin\Debug\AccessModifierPublicPrivate.exe
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\bin\Debug\AccessModifierPublicPrivate.pdb
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\obj\Debug\AccessModifierPublicPrivate.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\obj\Debug\AccessModifierPublicPrivate.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\obj\Debug\AccessModifierPublicPrivate.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\obj\Debug\AccessModifierPublicPrivate.exe
+E:\projectEducation\OnlineShop\OnlineShop\AccessModifierPublicPrivate\obj\Debug\AccessModifierPublicPrivate.pdb

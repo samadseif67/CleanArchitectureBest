@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "T/Be0ESbRUukrDBckAMPqBtp1h4p/jV1yQBTNZeQBys=",
+  "Hash": "hbnDGlZ3272iveb43WMwbHs5fc6Wututl6fvTGJ4+ic=",
   "Source": "ApiVersioning_App",
   "BasePath": "_content/ApiVersioning_App",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\projectEducation\\OnlineShop\\OnlineShop\\Docker_App\\Docker_App.csproj",
+      "Version": 2,
+      "Source": "Docker_App",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

@@ -11,15 +11,15 @@ namespace ZarinPal_Saman_PatternAdaptore.Controllers
 
         //this project working dotnet 8
 
-        public ActionResult ZarinPalPayment([FromKeyedServices("ZarinpalKey")] IPaymentAdapter paymentAdapter )
-        {
-            return Ok(paymentAdapter.Pay());
-        }
+        //public ActionResult ZarinPalPayment([FromKeyedServices("ZarinpalKey")] IPaymentAdapter paymentAdapter )
+        //{
+        //    return Ok(paymentAdapter.Pay());
+        //}
 
-        public ActionResult SamanBankPayment([FromKeyedServices("SamanBankKey")] IPaymentAdapter paymentAdapter)
-        {
-            return Ok(paymentAdapter.Pay());
-        }
+        //public ActionResult SamanBankPayment([FromKeyedServices("SamanBankKey")] IPaymentAdapter paymentAdapter)
+        //{
+        //    return Ok(paymentAdapter.Pay());
+        //}
 
 
     }

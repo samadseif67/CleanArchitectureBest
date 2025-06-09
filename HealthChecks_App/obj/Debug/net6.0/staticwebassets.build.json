@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WWpK0Ob3+SpLdAEXBQLZfuBPewPetQYpDEo06FyeAW8=",
+  "Source": "HealthChecks_App",
+  "BasePath": "_content/HealthChecks_App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

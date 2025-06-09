@@ -43,3 +43,8 @@ E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\obj\Debug\net6.0\ref
 E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\obj\Debug\net6.0\ApiVersioning_App.pdb
 E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\obj\Debug\net6.0\ApiVersioning_App.genruntimeconfig.cache
 E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\obj\Debug\net6.0\ref\ApiVersioning_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\bin\Debug\net6.0\Docker_App.deps.json
+E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\bin\Debug\net6.0\Docker_App.runtimeconfig.json
+E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\bin\Debug\net6.0\Docker_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\bin\Debug\net6.0\Docker_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\ApiVersioning_App\bin\Debug\net6.0\Docker_App.pdb
