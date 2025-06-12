@@ -1,12 +1,19 @@
+using QraphQl_App.GQl;
+using QraphQl_App.GQl.Mutations;
+using QraphQl_App.GQl.Queries;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //******************************************************************************
 
 
+builder.Services.AddScoped<AppMutations>();
+builder.Services.AddScoped<AppQueries>();
+builder.Services.AddScoped<AppSchema>();
 
 
 //*******************************************************************************
- 
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -20,7 +27,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//***************************************************************************
 
+app.UseGraphQL<AppSchema>();
+app.UseGraphQLGraphiQL("ui/graphql");
+
+ 
+
+//************************************************************************
 app.UseAuthorization();
 
 app.MapControllers();

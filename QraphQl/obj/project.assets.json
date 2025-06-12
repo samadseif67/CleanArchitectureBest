@@ -2,11 +2,26 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "GraphQL/8.2.1": {
+      "GraphiQL/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "3.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/GraphiQL.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphiQL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "GraphQL/8.5.0": {
         "type": "package",
         "dependencies": {
           "GraphQL-Parser": "9.5.0",
-          "GraphQL.Analyzers": "8.2.1"
+          "GraphQL.Analyzers": "8.5.0"
         },
         "compile": {
           "lib/net6.0/GraphQL.dll": {}
@@ -24,13 +39,13 @@
           "lib/net6.0/GraphQLParser.dll": {}
         }
       },
-      "GraphQL.Analyzers/8.2.1": {
+      "GraphQL.Analyzers/8.5.0": {
         "type": "package"
       },
-      "GraphQL.DataLoader/8.2.1": {
+      "GraphQL.DataLoader/7.0.0": {
         "type": "package",
         "dependencies": {
-          "GraphQL": "[8.2.1, 9.0.0)"
+          "GraphQL": "[7.0.0, 8.0.0)"
         },
         "compile": {
           "lib/netstandard2.0/GraphQL.DataLoader.dll": {}
@@ -39,10 +54,10 @@
           "lib/netstandard2.0/GraphQL.DataLoader.dll": {}
         }
       },
-      "GraphQL.MemoryCache/8.2.1": {
+      "GraphQL.MemoryCache/7.0.0": {
         "type": "package",
         "dependencies": {
-          "GraphQL": "[8.2.1, 9.0.0)",
+          "GraphQL": "[7.0.0, 8.0.0)",
           "Microsoft.Extensions.Caching.Memory": "3.1.0"
         },
         "compile": {
@@ -65,16 +80,16 @@
           "lib/net5.0/GraphQL.MicrosoftDI.dll": {}
         }
       },
-      "GraphQL.Server.All/8.2.0": {
+      "GraphQL.Server.All/7.0.0": {
         "type": "package",
         "dependencies": {
-          "GraphQL.DataLoader": "[8.2.1, 9.0.0)",
-          "GraphQL.MemoryCache": "[8.2.1, 9.0.0)",
-          "GraphQL.Server.Transports.AspNetCore": "[8.2.0, 9.0.0)",
-          "GraphQL.Server.Ui.Altair": "8.2.0",
-          "GraphQL.Server.Ui.GraphiQL": "8.2.0",
-          "GraphQL.Server.Ui.Playground": "8.2.0",
-          "GraphQL.Server.Ui.Voyager": "8.2.0"
+          "GraphQL.DataLoader": "7.0.0",
+          "GraphQL.MemoryCache": "7.0.0",
+          "GraphQL.Server.Transports.AspNetCore": "[7.0.0, 8.0.0)",
+          "GraphQL.Server.Ui.Altair": "7.0.0",
+          "GraphQL.Server.Ui.GraphiQL": "7.0.0",
+          "GraphQL.Server.Ui.Playground": "7.0.0",
+          "GraphQL.Server.Ui.Voyager": "7.0.0"
         }
       },
       "GraphQL.Server.Transports.AspNetCore/8.2.0": {
@@ -93,7 +108,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "GraphQL.Server.Ui.Altair/8.2.0": {
+      "GraphQL.Server.Ui.Altair/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/GraphQL.Server.Ui.Altair.dll": {}
@@ -105,7 +120,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "GraphQL.Server.Ui.GraphiQL/8.2.0": {
+      "GraphQL.Server.Ui.GraphiQL/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll": {}
@@ -117,7 +132,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "GraphQL.Server.Ui.Playground/8.2.0": {
+      "GraphQL.Server.Ui.Playground/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.dll": {}
@@ -129,7 +144,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "GraphQL.Server.Ui.Voyager/8.2.0": {
+      "GraphQL.Server.Ui.Voyager/7.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/GraphQL.Server.Ui.Voyager.dll": {}
@@ -200,6 +215,36 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
       "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
         "type": "package",
         "compile": {
@@ -222,7 +267,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.0": {
+      "Microsoft.Extensions.Primitives/3.1.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
@@ -294,16 +339,34 @@
     }
   },
   "libraries": {
-    "GraphQL/8.2.1": {
-      "sha512": "TeV4OqOD98BJK3akLc9RELPmkj9aeLvuVQGfbcWImBAC8NCU6e3wsKjaetv/Eio+GDPD9RZl5Rx1Dq8ZqZtTFg==",
+    "GraphiQL/2.0.0": {
+      "sha512": "wUUzFiZrXZWfxO6EwrgPJrPG4RhHHRl4COZlRdQ7tfdRNgldalqYWQlsISgwBMdaoLVXi5looSP7AgJ8mT6CQQ==",
       "type": "package",
-      "path": "graphql/8.2.1",
+      "path": "graphiql/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "graphiql.2.0.0.nupkg.sha512",
+        "graphiql.nuspec",
+        "lib/netcoreapp3.0/GraphiQL.dll",
+        "lib/netcoreapp3.0/GraphiQL.pdb",
+        "lib/netcoreapp3.1/GraphiQL.dll",
+        "lib/netcoreapp3.1/GraphiQL.pdb",
+        "lib/netstandard2.0/GraphiQL.dll",
+        "lib/netstandard2.0/GraphiQL.pdb",
+        "logo_128_128.png"
+      ]
+    },
+    "GraphQL/8.5.0": {
+      "sha512": "BZkfH7GVacTZEkyqa4XN9mW12UA/0XYrpEkkrJnNBf0Pqw8CZWQfItLaWgG2C1Ju9YHH1UUG+LmIpo8iMP6pKA==",
+      "type": "package",
+      "path": "graphql/8.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
-        "graphql.8.2.1.nupkg.sha512",
+        "graphql.8.5.0.nupkg.sha512",
         "graphql.nuspec",
         "lib/net5.0/GraphQL.dll",
         "lib/net5.0/GraphQL.xml",
@@ -335,10 +398,10 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Analyzers/8.2.1": {
-      "sha512": "xYjXQ9v3hHyciWRnF5HWGjYRZRG0MfFMn8+ciBRpwq8FopDLpj5D8wSlr7yyYJG3j6DSCp5F3rdUlxMSZqCW8g==",
+    "GraphQL.Analyzers/8.5.0": {
+      "sha512": "jwfvZD5agmw9J8iZEe6BUfKAY+/lC7EqDQg+6JRwXaQ6G/MCLy8jyBc2SHF/2JdAtrkygc1bVyCUP5mR2PHzVA==",
       "type": "package",
-      "path": "graphql.analyzers/8.2.1",
+      "path": "graphql.analyzers/8.5.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -347,39 +410,37 @@
         "README.md",
         "analyzers/dotnet/cs/GraphQL.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/GraphQL.Analyzers.dll",
-        "graphql.analyzers.8.2.1.nupkg.sha512",
+        "graphql.analyzers.8.5.0.nupkg.sha512",
         "graphql.analyzers.nuspec",
         "logo.64x64.png",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
     },
-    "GraphQL.DataLoader/8.2.1": {
-      "sha512": "FU4zV4R8tly/Fb2svj/cUk61lClMXGh+XvA3EvBx5eD0HoCiAJbj62fxTlI60krEF4O4n1olMVyQujXsCIHn2Q==",
+    "GraphQL.DataLoader/7.0.0": {
+      "sha512": "gGznUp9yCQWX3AEcIbeC5jDp6w1eX145plPVZL44Ue8thiIBxBWqHHNnJHdBdKlqMV6DM30pL8yZ8hqEnAlndA==",
       "type": "package",
-      "path": "graphql.dataloader/8.2.1",
+      "path": "graphql.dataloader/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.md",
         "README.md",
-        "graphql.dataloader.8.2.1.nupkg.sha512",
+        "graphql.dataloader.7.0.0.nupkg.sha512",
         "graphql.dataloader.nuspec",
         "lib/netstandard2.0/GraphQL.DataLoader.dll",
         "lib/netstandard2.0/GraphQL.DataLoader.xml",
         "logo.64x64.png"
       ]
     },
-    "GraphQL.MemoryCache/8.2.1": {
-      "sha512": "8c3+KecFqRkT6o9M3+Sf4hIFVFejdAflrJhm2PlYx3wWLed0RyIFh0/+v0Xnv3kx8fcE0a3ROssfILGf+BQ9Gg==",
+    "GraphQL.MemoryCache/7.0.0": {
+      "sha512": "oEcjIAGYuqLeUFl3WrKOVbC3TU02Oas1L7//RjNJmVnthQt+E6mIK+vFmJiVoFkMtTnR77UBnThMugpDEvO8oA==",
       "type": "package",
-      "path": "graphql.memorycache/8.2.1",
+      "path": "graphql.memorycache/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.md",
         "README.md",
-        "graphql.memorycache.8.2.1.nupkg.sha512",
+        "graphql.memorycache.7.0.0.nupkg.sha512",
         "graphql.memorycache.nuspec",
         "lib/net5.0/GraphQL.MemoryCache.dll",
         "lib/net5.0/GraphQL.MemoryCache.xml",
@@ -406,15 +467,15 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Server.All/8.2.0": {
-      "sha512": "ukuczMIHx3/txzSTcIfii/npuFTMlFSfW1Pg08RYxTSuC3aifaOEOL70Xma9lRPBXg0bmYI7GOeRBRa05AF7uA==",
+    "GraphQL.Server.All/7.0.0": {
+      "sha512": "cKFU0SL8le1lT5OeyACSbX9X3d74+prN3YN07/c9fDtuetJp5xXuuSqz4Wh+qWRRPuW0iQvOY7Hm0EWHrpgslw==",
       "type": "package",
-      "path": "graphql.server.all/8.2.0",
+      "path": "graphql.server.all/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "graphql.server.all.8.2.0.nupkg.sha512",
+        "graphql.server.all.7.0.0.nupkg.sha512",
         "graphql.server.all.nuspec",
         "logo.64x64.png"
       ]
@@ -444,18 +505,16 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Server.Ui.Altair/8.2.0": {
-      "sha512": "7se/gqnEZfei1LsYQ0+9IKuHKhbc4kDOeaVcLBGbsPNh3pbDGHxkRmCvSg8kuwhCd2YCG2i+dnURGnE1Ay851Q==",
+    "GraphQL.Server.Ui.Altair/7.0.0": {
+      "sha512": "IqYAGw1zbdTbmtGW3fg5eXjlO7Ax6h9wpYv3oqxcvbzw6P1YqvFJkt4y1numH7HXD/JlmYhZ1LN+eY6+CHt66g==",
       "type": "package",
-      "path": "graphql.server.ui.altair/8.2.0",
+      "path": "graphql.server.ui.altair/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "graphql.server.ui.altair.8.2.0.nupkg.sha512",
+        "graphql.server.ui.altair.7.0.0.nupkg.sha512",
         "graphql.server.ui.altair.nuspec",
-        "lib/net8.0/GraphQL.Server.Ui.Altair.dll",
-        "lib/net8.0/GraphQL.Server.Ui.Altair.xml",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Altair.dll",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Altair.xml",
         "lib/netstandard2.0/GraphQL.Server.Ui.Altair.dll",
@@ -463,18 +522,16 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Server.Ui.GraphiQL/8.2.0": {
-      "sha512": "4HsCtbsXkv/mzeDfHcc2lpc9wDXf+3EJ7qp8UX3Vq59MUTvR5Hktb7eBt/S1+jtzzfjs+UqcwR0QLGlX2SIZYg==",
+    "GraphQL.Server.Ui.GraphiQL/7.0.0": {
+      "sha512": "rgKzzATXv4/emue9KUs9vr6JSUXtm2Kk9gZY2TImQX97IRME3XYb1uezkGzNxiwMxw9SzhxYXghbkEmFmZQEjg==",
       "type": "package",
-      "path": "graphql.server.ui.graphiql/8.2.0",
+      "path": "graphql.server.ui.graphiql/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "graphql.server.ui.graphiql.8.2.0.nupkg.sha512",
+        "graphql.server.ui.graphiql.7.0.0.nupkg.sha512",
         "graphql.server.ui.graphiql.nuspec",
-        "lib/net8.0/GraphQL.Server.Ui.GraphiQL.dll",
-        "lib/net8.0/GraphQL.Server.Ui.GraphiQL.xml",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.xml",
         "lib/netstandard2.0/GraphQL.Server.Ui.GraphiQL.dll",
@@ -482,18 +539,16 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Server.Ui.Playground/8.2.0": {
-      "sha512": "+3C86JFhgWzPSdtRVVxiA0LM+PMRb27hykhZO+Lr0BAv1BGEJa1YJ6rynPqbnKyChfXHkeWAbPu6TWVP7ui7yQ==",
+    "GraphQL.Server.Ui.Playground/7.0.0": {
+      "sha512": "5u6uMnbsCJuBRH7J3rzjRs5b0GXzRbVTGDPmJo7BJqaTG4EE0bX+793KrGbYOkW0AyxjYttESHJARJSD+NLrdA==",
       "type": "package",
-      "path": "graphql.server.ui.playground/8.2.0",
+      "path": "graphql.server.ui.playground/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "graphql.server.ui.playground.8.2.0.nupkg.sha512",
+        "graphql.server.ui.playground.7.0.0.nupkg.sha512",
         "graphql.server.ui.playground.nuspec",
-        "lib/net8.0/GraphQL.Server.Ui.Playground.dll",
-        "lib/net8.0/GraphQL.Server.Ui.Playground.xml",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.dll",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.xml",
         "lib/netstandard2.0/GraphQL.Server.Ui.Playground.dll",
@@ -501,18 +556,16 @@
         "logo.64x64.png"
       ]
     },
-    "GraphQL.Server.Ui.Voyager/8.2.0": {
-      "sha512": "sCJpTY85tvyMEgPjGodEGaULehVnPx3/iBXDNjl8vIus1FmwUPPNgRRkVJ6FNO7OiIR6gfoIfNfpnU9zdJEgVg==",
+    "GraphQL.Server.Ui.Voyager/7.0.0": {
+      "sha512": "QyO2tD+5Qxa73vZ6jB1gDQg8DubQLszEA95ZHz6qKMhMb6zoAdkNB/LxO/HbO97lMJVLWYzBMA5LVPDAHgS1FA==",
       "type": "package",
-      "path": "graphql.server.ui.voyager/8.2.0",
+      "path": "graphql.server.ui.voyager/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "graphql.server.ui.voyager.8.2.0.nupkg.sha512",
+        "graphql.server.ui.voyager.7.0.0.nupkg.sha512",
         "graphql.server.ui.voyager.nuspec",
-        "lib/net8.0/GraphQL.Server.Ui.Voyager.dll",
-        "lib/net8.0/GraphQL.Server.Ui.Voyager.xml",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Voyager.dll",
         "lib/netcoreapp3.1/GraphQL.Server.Ui.Voyager.xml",
         "lib/netstandard2.0/GraphQL.Server.Ui.Voyager.dll",
@@ -617,6 +670,43 @@
         "packageIcon.png"
       ]
     },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+      "sha512": "V9WqFEKiUygbsNB3JUMUUJAoTlDxNqBwfybZTF7RbFCgbooFNyCscBOdiciomA785wiRoX/Uy/WIea9wzPBPgQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+      "sha512": "+yygkjo94EkMggtsBkj/W3/OR/QTXrP+iGSrz3MkJJsd/lRJ3PrENeEkOowfqCAKg/U0AMJroAqI7U4g7i/+9w==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec",
+        "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
+      ]
+    },
     "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
       "sha512": "jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
       "type": "package",
@@ -647,20 +737,20 @@
         "packageIcon.png"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.0": {
-      "sha512": "LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
+    "Microsoft.Extensions.Primitives/3.1.1": {
+      "sha512": "tC5Eo5DbJA+NgiIw26R5c97N02tFvtfqstUxqb/4qXPLXI2IAIWSMUkh/1c9Gw59TT9hNkLwlmLErSPlHgyJVQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.0",
+      "path": "microsoft.extensions.primitives/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.0.nupkg.sha512",
-        "microsoft.extensions.primitives.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.primitives.3.1.1.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
       ]
     },
     "Microsoft.OpenApi/1.2.3": {
@@ -764,8 +854,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GraphQL.Server.All >= 8.2.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "GraphQL >= 8.5.0",
+      "GraphQL.Server.All >= 7.0.0",
+      "GraphQL.Server.Transports.AspNetCore >= 8.2.0",
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "graphiql >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -812,13 +905,25 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "GraphQL": {
+            "target": "Package",
+            "version": "[8.5.0, )"
+          },
           "GraphQL.Server.All": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "GraphQL.Server.Transports.AspNetCore": {
             "target": "Package",
             "version": "[8.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "graphiql": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -842,5 +947,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: GraphQL.Server.All 7.0.0 requires GraphQL.Server.Transports.AspNetCore (>= 7.0.0 && < 8.0.0) but version GraphQL.Server.Transports.AspNetCore 8.2.0 was resolved.",
+      "libraryId": "GraphQL.Server.Transports.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: GraphQL.DataLoader 7.0.0 requires GraphQL (>= 7.0.0 && < 8.0.0) but version GraphQL 8.5.0 was resolved.",
+      "libraryId": "GraphQL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: GraphQL.MemoryCache 7.0.0 requires GraphQL (>= 7.0.0 && < 8.0.0) but version GraphQL 8.5.0 was resolved.",
+      "libraryId": "GraphQL",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

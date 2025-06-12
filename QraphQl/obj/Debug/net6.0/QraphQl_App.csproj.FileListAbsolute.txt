@@ -36,3 +36,4 @@ E:\projectEducation\OnlineShop\OnlineShop\QraphQl\obj\Debug\net6.0\refint\QraphQ
 E:\projectEducation\OnlineShop\OnlineShop\QraphQl\obj\Debug\net6.0\QraphQl_App.pdb
 E:\projectEducation\OnlineShop\OnlineShop\QraphQl\obj\Debug\net6.0\QraphQl_App.genruntimeconfig.cache
 E:\projectEducation\OnlineShop\OnlineShop\QraphQl\obj\Debug\net6.0\ref\QraphQl_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\QraphQl\bin\Debug\net6.0\GraphiQL.dll

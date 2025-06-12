@@ -44,13 +44,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
             "GraphQL.Server.All": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
               "target": "Package",
               "version": "[8.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "graphiql": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

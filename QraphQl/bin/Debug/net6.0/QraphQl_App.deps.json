@@ -8,22 +8,36 @@
     ".NETCoreApp,Version=v6.0": {
       "QraphQl_App/1.0.0": {
         "dependencies": {
+          "GraphQL": "8.5.0",
           "GraphQL.Server.All": "8.2.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "GraphQL.Server.Transports.AspNetCore": "8.2.0",
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "GraphiQL": "2.0.0"
         },
         "runtime": {
           "QraphQl_App.dll": {}
         }
       },
-      "GraphQL/8.2.1": {
+      "GraphiQL/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphiQL.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "GraphQL/8.5.0": {
         "dependencies": {
           "GraphQL-Parser": "9.5.0",
-          "GraphQL.Analyzers": "8.2.1"
+          "GraphQL.Analyzers": "8.5.0"
         },
         "runtime": {
           "lib/net6.0/GraphQL.dll": {
-            "assemblyVersion": "8.2.1.0",
-            "fileVersion": "8.2.1.0"
+            "assemblyVersion": "8.5.0.0",
+            "fileVersion": "8.5.0.0"
           }
         }
       },
@@ -35,10 +49,10 @@
           }
         }
       },
-      "GraphQL.Analyzers/8.2.1": {},
+      "GraphQL.Analyzers/8.5.0": {},
       "GraphQL.DataLoader/8.2.1": {
         "dependencies": {
-          "GraphQL": "8.2.1"
+          "GraphQL": "8.5.0"
         },
         "runtime": {
           "lib/netstandard2.0/GraphQL.DataLoader.dll": {
@@ -49,7 +63,7 @@
       },
       "GraphQL.MemoryCache/8.2.1": {
         "dependencies": {
-          "GraphQL": "8.2.1",
+          "GraphQL": "8.5.0",
           "Microsoft.Extensions.Caching.Memory": "3.1.0"
         },
         "runtime": {
@@ -61,7 +75,7 @@
       },
       "GraphQL.MicrosoftDI/8.2.1": {
         "dependencies": {
-          "GraphQL": "8.2.1",
+          "GraphQL": "8.5.0",
           "Microsoft.Extensions.Options": "3.1.0"
         },
         "runtime": {
@@ -128,7 +142,7 @@
       },
       "GraphQL.SystemTextJson/8.2.1": {
         "dependencies": {
-          "GraphQL": "8.2.1"
+          "GraphQL": "8.5.0"
         },
         "runtime": {
           "lib/net6.0/GraphQL.SystemTextJson.dll": {
@@ -140,7 +154,7 @@
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Caching.Abstractions/3.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.0"
+          "Microsoft.Extensions.Primitives": "3.1.1"
         }
       },
       "Microsoft.Extensions.Caching.Memory/3.1.0": {
@@ -152,14 +166,24 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.1"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.1"
+        }
+      },
       "Microsoft.Extensions.Logging.Abstractions/3.1.0": {},
       "Microsoft.Extensions.Options/3.1.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
-          "Microsoft.Extensions.Primitives": "3.1.0"
+          "Microsoft.Extensions.Primitives": "3.1.1"
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.0": {},
+      "Microsoft.Extensions.Primitives/3.1.1": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -214,12 +238,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "GraphQL/8.2.1": {
+    "GraphiQL/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TeV4OqOD98BJK3akLc9RELPmkj9aeLvuVQGfbcWImBAC8NCU6e3wsKjaetv/Eio+GDPD9RZl5Rx1Dq8ZqZtTFg==",
-      "path": "graphql/8.2.1",
-      "hashPath": "graphql.8.2.1.nupkg.sha512"
+      "sha512": "sha512-wUUzFiZrXZWfxO6EwrgPJrPG4RhHHRl4COZlRdQ7tfdRNgldalqYWQlsISgwBMdaoLVXi5looSP7AgJ8mT6CQQ==",
+      "path": "graphiql/2.0.0",
+      "hashPath": "graphiql.2.0.0.nupkg.sha512"
+    },
+    "GraphQL/8.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BZkfH7GVacTZEkyqa4XN9mW12UA/0XYrpEkkrJnNBf0Pqw8CZWQfItLaWgG2C1Ju9YHH1UUG+LmIpo8iMP6pKA==",
+      "path": "graphql/8.5.0",
+      "hashPath": "graphql.8.5.0.nupkg.sha512"
     },
     "GraphQL-Parser/9.5.0": {
       "type": "package",
@@ -228,12 +259,12 @@
       "path": "graphql-parser/9.5.0",
       "hashPath": "graphql-parser.9.5.0.nupkg.sha512"
     },
-    "GraphQL.Analyzers/8.2.1": {
+    "GraphQL.Analyzers/8.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xYjXQ9v3hHyciWRnF5HWGjYRZRG0MfFMn8+ciBRpwq8FopDLpj5D8wSlr7yyYJG3j6DSCp5F3rdUlxMSZqCW8g==",
-      "path": "graphql.analyzers/8.2.1",
-      "hashPath": "graphql.analyzers.8.2.1.nupkg.sha512"
+      "sha512": "sha512-jwfvZD5agmw9J8iZEe6BUfKAY+/lC7EqDQg+6JRwXaQ6G/MCLy8jyBc2SHF/2JdAtrkygc1bVyCUP5mR2PHzVA==",
+      "path": "graphql.analyzers/8.5.0",
+      "hashPath": "graphql.analyzers.8.5.0.nupkg.sha512"
     },
     "GraphQL.DataLoader/8.2.1": {
       "type": "package",
@@ -333,6 +364,20 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V9WqFEKiUygbsNB3JUMUUJAoTlDxNqBwfybZTF7RbFCgbooFNyCscBOdiciomA785wiRoX/Uy/WIea9wzPBPgQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+yygkjo94EkMggtsBkj/W3/OR/QTXrP+iGSrz3MkJJsd/lRJ3PrENeEkOowfqCAKg/U0AMJroAqI7U4g7i/+9w==",
+      "path": "microsoft.extensions.fileproviders.embedded/3.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -347,12 +392,12 @@
       "path": "microsoft.extensions.options/3.1.0",
       "hashPath": "microsoft.extensions.options.3.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/3.1.0": {
+    "Microsoft.Extensions.Primitives/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
-      "path": "microsoft.extensions.primitives/3.1.0",
-      "hashPath": "microsoft.extensions.primitives.3.1.0.nupkg.sha512"
+      "sha512": "sha512-tC5Eo5DbJA+NgiIw26R5c97N02tFvtfqstUxqb/4qXPLXI2IAIWSMUkh/1c9Gw59TT9hNkLwlmLErSPlHgyJVQ==",
+      "path": "microsoft.extensions.primitives/3.1.1",
+      "hashPath": "microsoft.extensions.primitives.3.1.1.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",

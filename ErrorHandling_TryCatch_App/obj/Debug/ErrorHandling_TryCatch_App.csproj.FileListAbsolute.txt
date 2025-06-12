@@ -1,0 +1,8 @@
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\bin\Debug\ErrorHandling_TryCatch_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\bin\Debug\ErrorHandling_TryCatch_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\bin\Debug\ErrorHandling_TryCatch_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\obj\Debug\ErrorHandling_TryCatch_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\obj\Debug\ErrorHandling_TryCatch_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\obj\Debug\ErrorHandling_TryCatch_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\obj\Debug\ErrorHandling_TryCatch_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\ErrorHandling_TryCatch_App\obj\Debug\ErrorHandling_TryCatch_App.pdb
