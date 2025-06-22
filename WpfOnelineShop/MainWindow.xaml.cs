@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfOnelineShop.Services;
 
 namespace WpfOnelineShop
 {
@@ -20,9 +21,12 @@ namespace WpfOnelineShop
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        PersonRepository PersonRepository = new PersonRepository();
         public MainWindow()
         {
             InitializeComponent();
+            PersonGrid.ItemsSource = PersonRepository.GetAllPerson();
         }
 
         //در رویداد کلیک سمت فرانت این تابع ها صدا زده میشود
@@ -45,6 +49,30 @@ namespace WpfOnelineShop
             ProductPanel.Visibility = Visibility.Visible;//نمایش داده شود
             HomePanel.Visibility = Visibility.Collapsed;//پنهان شود
             PersonPanel.Visibility = Visibility.Collapsed;//پنهان شود
+        }
+
+        private void PersonGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (PersonGrid.SelectedIndex >-1)
+            {
+                Person person = PersonGrid.SelectedItem as Person;
+                DetailsInfoPerson.Content = $"{person.Name} {person.Family}";
+            }
+        }
+
+        private void BtnAddPerson_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnEditPerson_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnDeletePerson_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
