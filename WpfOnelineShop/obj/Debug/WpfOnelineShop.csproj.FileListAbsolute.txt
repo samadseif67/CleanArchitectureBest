@@ -14,3 +14,5 @@ E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\WpfOnelineSho
 E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\WpfOnelineShop.csproj.CoreCompileInputs.cache
 E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\WpfOnelineShop.exe
 E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\WpfOnelineShop.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\PersonWindow.g.cs
+E:\projectEducation\OnlineShop\OnlineShop\WpfOnelineShop\obj\Debug\PersonWindow.baml

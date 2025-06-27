@@ -42,20 +42,30 @@ namespace WpfOnelineShop.Services
 
         public void AddPerson(Person person)
         {
+            person.Id = LstPerson.Count() == 0 ? 1 : LstPerson.Max(x => x.Id) + 1;
             LstPerson.Add(person);
+        }
+        public void EditPerson(Person personold,Person person)
+        {
+            int indexnumber = LstPerson.IndexOf(personold);
+            LstPerson[indexnumber] = person;
+
         }
         public Person GetPerson(int PersonId)
         {
-           var result= LstPerson.FirstOrDefault(x=>x.Id == PersonId); 
+            var result = LstPerson.FirstOrDefault(x => x.Id == PersonId);
             return result;
         }
 
         public ObservableCollection<Person> GetAllPerson()
         {
-            var result = LstPerson ;
+            var result = LstPerson;
             return result;
         }
-
+        public void DeletePerson(Person person)
+        {
+            LstPerson.Remove(person);    
+        }
 
     }
 }

@@ -62,17 +62,27 @@ namespace WpfOnelineShop
 
         private void BtnAddPerson_Click(object sender, RoutedEventArgs e)
         {
-
+            PersonWindow personWindow = new PersonWindow(PersonRepository,new Person() { Name="",Family="",Id=0});
+            personWindow.Show();
         }
 
         private void BtnEditPerson_Click(object sender, RoutedEventArgs e)
         {
-
+            if (PersonGrid.SelectedIndex > -1)
+            {
+                Person person = PersonGrid.SelectedItem as Person;
+                PersonWindow personWindow = new PersonWindow(PersonRepository, person);
+                personWindow.Show();
+            } 
         }
 
         private void BtnDeletePerson_Click(object sender, RoutedEventArgs e)
         {
-
+            if (PersonGrid.SelectedIndex > -1)
+            {
+                Person person = PersonGrid.SelectedItem as Person;
+                PersonRepository.DeletePerson(person);
+            }
         }
     }
 }

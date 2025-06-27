@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfOnelineShop.PersonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfOnelineShop"
+        mc:Ignorable="d"
+        Title="PersonWindow" Height="450" Width="450">
+    <Grid>
+        <StackPanel Margin="10">
+            <DockPanel Margin="2">
+                <Label>FirstName</Label>
+                <TextBox Name="Txt_FirstName" BorderBrush="Black" />
+            </DockPanel>
+            <DockPanel Margin="2">
+                <Label>LastName</Label>
+                <TextBox Name="Txt_LastName" BorderBrush="Black" />
+            </DockPanel>
+            <Label Name="Label_ValidationPerson" Foreground="Red"></Label>
+            <DockPanel HorizontalAlignment="Right">
+                <Button Width="100" Margin="2" Name="BtnCancel" Click="BtnCancel_Click">cancel</Button>
+                <Button Width="100" Margin="2" Name="BtnSave" Click="BtnSave_Click">Save</Button>
+            </DockPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>
