@@ -25,3 +25,4 @@ E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Debug\net6.0\refint\Doc
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Debug\net6.0\Docker_App.pdb
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Debug\net6.0\Docker_App.genruntimeconfig.cache
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Debug\net6.0\ref\Docker_App.dll
+E:\projectEducation\OnlineShop\OnlineShop\Docker_App\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -6,6 +6,7 @@ E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\O
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Docker_App.runtimeconfig.json
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Docker_App.pdb
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\projectEducation\OnlineShop\OnlineShop\Docker_App\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
