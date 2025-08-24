@@ -1,4 +1,4 @@
-using System.Net;
+﻿using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 
@@ -7,49 +7,47 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.Run();
+//************************************************************************************************************************
 
-//***********************************************************************************************
-var wsOptions = new WebSocketOptions { KeepAliveInterval = TimeSpan.FromSeconds(120) };
-app.UseWebSockets(wsOptions);
-app.Use(async (context, next) =>
+app.MapGet("/send",async context =>
 {
-    if (context.Request.Path == "/send")
+    if(context.WebSockets.IsWebSocketRequest) //اگر درخواستی بیاید
     {
-        if (context.WebSockets.IsWebSocketRequest)
+        using (WebSocket webSocket=await context.WebSockets.AcceptWebSocketAsync())//ایجاد یک کانکشن
         {
-            using (WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync())
-            {
-                await Send(context, webSocket);
-            }
+            await Send(context, webSocket);
         }
-        else
-        {
-            context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
-        }
-        await Task.FromResult(next(context));
     }
-
+    else
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+    }
 });
+
 static async Task Send(HttpContext httpContext, WebSocket webSocket)
 {
     var buffer = new byte[1024 * 4];
-    WebSocketReceiveResult result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), System.Threading.CancellationToken.None);
+    WebSocketReceiveResult result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), System.Threading.CancellationToken.None);//دریافت پیام از وب سوکت
     if (result != null)
     {
-        while (!result.CloseStatus.HasValue)
+        while (!result.CloseStatus.HasValue)//اگر کلوز استتیوز مقدار نداشته باشد باید ادامه بدهیم
         {
-            string msg = Encoding.UTF8.GetString(new ArraySegment<byte>(buffer, 0, result.Count));
+            string msg = Encoding.UTF8.GetString(new ArraySegment<byte>(buffer, 0, result.Count));//پیام ها در کدام بافر نوشته شوند
+
             Console.WriteLine($"Client Says:{msg}");
-            await webSocket.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes($"server says:{DateTime.UtcNow}: ok")),
+
+            await webSocket.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes($"server says:{DateTime.UtcNow}: ok {msg}")),
                 result.MessageType, result.EndOfMessage,
                 System.Threading.CancellationToken.None);
-            result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), System.Threading.CancellationToken.None);
-            Console.WriteLine(result);
+             
         }
 
     }
-    await webSocket.CloseAsync(result.CloseStatus.Value,result.CloseStatusDescription,System.Threading.CancellationToken.None);
+    await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, System.Threading.CancellationToken.None);
 }
+ 
+app.UseWebSockets();
 
-//*************************************************************************************************
+//**********************************************************************************************************************
+app.Run();
+ 

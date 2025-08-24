@@ -1,0 +1,10 @@
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe.config
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.csproj.SuggestedBindingRedirects.cache
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.exe
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.pdb
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.ProjectInstaller.resources
+E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\obj\Debug\WindowsService_App.csproj.GenerateResource.cache

@@ -1,0 +1,7 @@
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.csproj.AssemblyReference.cache
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.GeneratedMSBuildEditorConfig.editorconfig
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.AssemblyInfoInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.AssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.csproj.CoreCompileInputs.cache
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.MvcApplicationPartsAssemblyInfo.cs
+E:\projectEducation\OnlineShop\OnlineShop\Saga_App\obj\Debug\net6.0\Saga_App.MvcApplicationPartsAssemblyInfo.cache

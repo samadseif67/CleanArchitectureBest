@@ -1,0 +1,38 @@
+﻿Installing assembly 'E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+   logfile = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.InstallLog
+Installing service AppSamad...
+Creating EventLog source AppSamad in log Application...
+Rolling back assembly 'E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+   logfile = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.InstallLog
+Restoring event log to previous state for source AppSamad.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+   logfile = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.InstallLog
+Installing service AppSamad...
+Service AppSamad has been successfully installed.
+Creating EventLog source AppSamad in log Application...
+Committing assembly 'E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+   logfile = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.InstallLog
+Uninstalling assembly 'E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.exe
+   logfile = E:\projectEducation\OnlineShop\OnlineShop\WindowsService_App\bin\Debug\WindowsService_App.InstallLog
+Removing EventLog source AppSamad.
+Service AppSamad is being removed from the system...
+Service AppSamad was successfully removed from the system.
+Attempt to stop service AppSamad.
