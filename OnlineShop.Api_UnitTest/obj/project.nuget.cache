@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVi6v5pPldcT8umuC2gYESCMUd+E6zlD2GBGwaeTl1DazZ67w8KTrzuUMHqJXzqlB4x0DxIBRO8fR8I3XPS0rg==",
+  "dgSpecHash": "0DS3Zrbs+Go=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
   "expectedPackageFiles": [
@@ -162,10 +162,21 @@
   ],
   "logs": [
     {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
+      "targetGraphs": []
+    },
+    {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         "net6.0"
@@ -174,8 +185,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net6.0"
@@ -184,8 +197,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net6.0"
@@ -194,8 +209,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Api_UnitTest\\OnlineShop.Api_UnitTest.csproj",
       "libraryId": "Microsoft.Web.Infrastructure",
       "targetGraphs": [
         "net6.0"

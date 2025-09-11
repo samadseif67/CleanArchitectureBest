@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZT1utLkQK50TEFmH5vz3CYy5qKobCes49lPZBtr6Z4XIrw8UGuHYTcVh0p1AZ7Pyg2FQR/ceS/FSdGmlCtPg9w==",
+  "dgSpecHash": "EC2m3x5pxn4=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Persistenc\\OnlineShop.Persistence.csproj",
   "expectedPackageFiles": [
@@ -57,5 +57,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Persistenc\\OnlineShop.Persistence.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OnlineShop.Persistenc\\OnlineShop.Persistence.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

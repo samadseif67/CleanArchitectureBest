@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ikCTHLwUMVPWh0oR9OQLi14Jez2Uy2IxzBGSiYbtbxz10A3Lr1qWX66pXc6vujuBXFMxo5+MfHlwDePWkJb4UA==",
+  "dgSpecHash": "ZAoFjxHer14=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HangFire_backgroundService_App\\HangFire_backgroundService_App.csproj",
   "expectedPackageFiles": [
@@ -57,8 +57,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.Data.SqlClient 6.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HangFire_backgroundService_App\\HangFire_backgroundService_App.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Data.SqlClient 6.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HangFire_backgroundService_App\\HangFire_backgroundService_App.csproj",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
         "net6.0"
@@ -67,8 +69,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'Microsoft.Data.SqlClient.SNI 6.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HangFire_backgroundService_App\\HangFire_backgroundService_App.csproj",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Data.SqlClient.SNI 6.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HangFire_backgroundService_App\\HangFire_backgroundService_App.csproj",
       "libraryId": "Microsoft.Data.SqlClient.SNI",
       "targetGraphs": [
         "net6.0"

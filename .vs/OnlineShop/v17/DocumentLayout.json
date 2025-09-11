@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|e:\\projecteducation\\onlineshop\\onlineshop\\webform_asp_app\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|solutionrelative:webform_asp_app\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|e:\\projecteducation\\onlineshop\\onlineshop\\webform_asp_app\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|solutionrelative:webform_asp_app\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|e:\\projecteducation\\onlineshop\\onlineshop\\webform_asp_app\\webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E0A0FD-DB0A-49BA-8D62-05D44238CEB0}|WebForm_Asp_App\\WebForm_Asp_App.csproj|solutionrelative:webform_asp_app\\webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.designer.cs",
+              "DocumentMoniker": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebForm_Asp_App\\WebForm1.aspx.designer.cs",
+              "ToolTip": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx.designer.cs",
+              "RelativeToolTip": "WebForm_Asp_App\\WebForm1.aspx.designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:58:34.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm_Asp_App\\WebForm1.aspx.cs",
+              "ToolTip": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx.cs",
+              "RelativeToolTip": "WebForm_Asp_App\\WebForm1.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:56:45.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebForm_Asp_App\\WebForm1.aspx",
+              "ToolTip": "E:\\projectEducation\\OnlineShop\\OnlineShop\\WebForm_Asp_App\\WebForm1.aspx",
+              "RelativeToolTip": "WebForm_Asp_App\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-11T17:56:32.597Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

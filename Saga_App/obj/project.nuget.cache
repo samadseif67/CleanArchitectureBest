@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4gygEHOitOA5Djs23xfjZAc44gMSTTQiaDbRHOqBBlmk42zVfo6JUcHl9ZFp3X8qJ5yB16P6GRpqMlFIY47TaQ==",
+  "dgSpecHash": "0q7AiEU2hKc=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\Saga_App\\Saga_App.csproj",
   "expectedPackageFiles": [
@@ -67,5 +67,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\Saga_App\\Saga_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\Saga_App\\Saga_App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

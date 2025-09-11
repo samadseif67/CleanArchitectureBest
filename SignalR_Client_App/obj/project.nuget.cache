@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a3FazCMmaqQikHpszEpa2yLgdTXr6MYgPSLsMHyR6kHcB1ryZdph1IiVgdf3Zs+Q35HHZbly0oDIru4Fp/GAQw==",
+  "dgSpecHash": "PH/rNRA8lUs=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Client_App\\SignalR_Client_App.csproj",
   "expectedPackageFiles": [
@@ -27,5 +27,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.tasks.extensions\\4.6.3\\system.threading.tasks.extensions.4.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Client_App\\SignalR_Client_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Client_App\\SignalR_Client_App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

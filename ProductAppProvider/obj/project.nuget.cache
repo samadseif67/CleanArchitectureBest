@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S92MAjsXpJJf6KEyhG5BsTu7qdE03MR6cj+WzAXrGBuEL2iWM+5t2xpSvR+fVGCJXey/9w4JbnAltEJ31ZLsYg==",
+  "dgSpecHash": "udMhuQ6KCf8=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\ProductAppProvider\\ProductAppProvider.csproj",
   "expectedPackageFiles": [
@@ -11,5 +11,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\ProductAppProvider\\ProductAppProvider.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\ProductAppProvider\\ProductAppProvider.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pck8pnbP4RwXoBgJmAyX10mmuq/nGXYycuTccVfoMJsFjiW6NCqyzFp61nCRmiM6agxIylobqrgnG6YMOs1oOg==",
+  "dgSpecHash": "42NIYNduvP0=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
   "expectedPackageFiles": [
@@ -37,8 +37,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: GraphQL.Server.All 7.0.0 requires GraphQL.Server.Transports.AspNetCore (>= 7.0.0 && < 8.0.0) but version GraphQL.Server.Transports.AspNetCore 8.2.0 was resolved.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
       "libraryId": "GraphQL.Server.Transports.AspNetCore",
       "targetGraphs": [
         "net6.0"
@@ -47,8 +49,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: GraphQL.DataLoader 7.0.0 requires GraphQL (>= 7.0.0 && < 8.0.0) but version GraphQL 8.5.0 was resolved.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
       "libraryId": "GraphQL",
       "targetGraphs": [
         "net6.0"
@@ -57,8 +61,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: GraphQL.MemoryCache 7.0.0 requires GraphQL (>= 7.0.0 && < 8.0.0) but version GraphQL 8.5.0 was resolved.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\QraphQl\\QraphQl_App.csproj",
       "libraryId": "GraphQL",
       "targetGraphs": [
         "net6.0"

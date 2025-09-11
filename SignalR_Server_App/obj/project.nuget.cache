@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KYvZMgCBQ9gZwhSZ782xFZPYmSRS6qPIBZPTWjXDlL2Txi9PaIetLxklAXc03JnWQd/Pc6Gm5m9ul5yf16jq3w==",
+  "dgSpecHash": "X/Hn/Wr2QYw=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Server_App\\SignalR_Server_App.csproj",
   "expectedPackageFiles": [
@@ -50,5 +50,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Server_App\\SignalR_Server_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\SignalR_Server_App\\SignalR_Server_App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

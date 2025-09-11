@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fmRSmQ6VdfNfK2t5RPvLOysND57i3PXAmFjHSz8KUbqGxobyEKZJhchr2FiNPDBZPtB5vIxcBCx8yqxzTQ6uhQ==",
+  "dgSpecHash": "7hqVxou+/2M=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RateLimiting_App\\RateLimiting_App.csproj",
   "expectedPackageFiles": [
@@ -19,5 +19,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RateLimiting_App\\RateLimiting_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RateLimiting_App\\RateLimiting_App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

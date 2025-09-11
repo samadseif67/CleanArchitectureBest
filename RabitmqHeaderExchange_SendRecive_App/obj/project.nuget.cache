@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qSs5xSjZ/w+TkcEm0Vjw6hPxRIgEOnvVZSTa9QqiDTSKpCTEYIpVl8BGJiKjczE0ovv9bbaXE2SZ0ECUdq9gzw==",
+  "dgSpecHash": "kCnE+P9xfwM=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RabitmqHeaderExchange_SendRecive_App\\RabitmqHeaderExchange_SendRecive_App.csproj",
   "expectedPackageFiles": [
@@ -13,5 +13,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RabitmqHeaderExchange_SendRecive_App\\RabitmqHeaderExchange_SendRecive_App.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\RabitmqHeaderExchange_SendRecive_App\\RabitmqHeaderExchange_SendRecive_App.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

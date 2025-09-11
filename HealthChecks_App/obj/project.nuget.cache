@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9BXMRlxm9W/aqnlvrpWOV0QhfTyLjXcoPg9u2xIBY1XjjZ0BCP1uoPCXgFk6jzG3PFfroNTytAsYqTG3Z4NBGw==",
+  "dgSpecHash": "iCG+PHsgo9k=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\HealthChecks_App\\HealthChecks_App.csproj",
   "expectedPackageFiles": [
@@ -127,16 +127,5 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\yamldotnet\\8.1.2\\yamldotnet.8.1.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "AspNetCore.HealthChecks.UI 6.0.1 depends on AspNetCore.HealthChecks.UI.Core (>= 6.0.1) but AspNetCore.HealthChecks.UI.Core 6.0.1 was not found. An approximate best match of AspNetCore.HealthChecks.UI.Core 6.0.2 was resolved.",
-      "libraryId": "AspNetCore.HealthChecks.UI.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

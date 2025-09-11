@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BBXtnIionW99uKykGgFXPyMCrre8VWj8VfyLAHOwpkPO/YQyWplkvN2ry3ln62OYTzuRf1HRD43h45Gj9wswEA==",
+  "dgSpecHash": "RpqXqr9pVrY=",
   "success": true,
   "projectFilePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OrderAppConsumerTest_BetweenTwoProject\\OrderAppConsumerTest_BetweenTwoProject.csproj",
   "expectedPackageFiles": [
@@ -115,5 +115,15 @@
     "C:\\Users\\HP\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OrderAppConsumerTest_BetweenTwoProject\\OrderAppConsumerTest_BetweenTwoProject.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projectEducation\\OnlineShop\\OnlineShop\\OrderAppConsumerTest_BetweenTwoProject\\OrderAppConsumerTest_BetweenTwoProject.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
