@@ -13,5 +13,10 @@ namespace WebForm_Asp_App
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("./RedirectPage/Page1.aspx");
+        }
     }
 }

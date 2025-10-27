@@ -67,11 +67,66 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Define-Ajax\WebForm1.aspx" />
+    <Content Include="Define-MasterPage\WebForm1.aspx" />
+    <Content Include="Define-UserControl\UseFromUserControlInWebForm1.aspx" />
+    <Content Include="Define-UserControl\WebUserControl1.ascx" />
+    <Content Include="RedirectPage\Page1.aspx" />
+    <Content Include="RedirectPage\Page2.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Define-Ajax\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Define-Ajax\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Define-MasterPage\Layout-masterPage.Master.cs">
+      <DependentUpon>Layout-masterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Define-MasterPage\Layout-masterPage.Master.designer.cs">
+      <DependentUpon>Layout-masterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Define-MasterPage\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Define-MasterPage\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Define-UserControl\UseFromUserControlInWebForm1.aspx.cs">
+      <DependentUpon>UseFromUserControlInWebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Define-UserControl\UseFromUserControlInWebForm1.aspx.designer.cs">
+      <DependentUpon>UseFromUserControlInWebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Define-UserControl\WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Define-UserControl\WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedirectPage\Page1.aspx.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RedirectPage\Page1.aspx.designer.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RedirectPage\Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RedirectPage\Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -81,6 +136,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Define-MasterPage\Layout-masterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

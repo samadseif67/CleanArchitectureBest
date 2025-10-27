@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rabitmq_MassTransit_AppOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcaa95dd3aa51cee24203e6a7590c28a0815c741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9279544865a348d4b02a8df4899722f38741492f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rabitmq_MassTransit_AppOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rabitmq_MassTransit_AppOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
